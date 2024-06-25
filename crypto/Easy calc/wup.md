@@ -72,7 +72,7 @@ $$A = - \frac{-s + s^{p+1}}{(1-s)^{2}} \mod p$$
 
 $$A = \frac{s - s^{p} + s^{p} - s^{p+1}}{(1-s)^{2}} \mod p$$
 
-$$A = \frac{s - s^{p}}{(1 - s)^{2} + \frac{s^{p}(a-s)}{(1 - s)^{2}} \mod p$$
+$$A = \frac{s - s^{p}}{(1 - s)^{2}} + \frac{s^{p}(a-s)}{(1 - s)^{2}} \mod p$$
 
 Sử dụng Fermat nhỏ, có $s - s^{p} = 0 \mod p$
 
