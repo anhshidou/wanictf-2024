@@ -92,7 +92,7 @@ $$A = s(1 + A) \mod p$$
 
 $$s = \frac{A}{1 + A} \mod p$$
 
-Hay nói cách khác `s = A * inverse(A + 1, p) % `
+Hay nói cách khác `s = A * inverse(A + 1, p) % p`
 
 Từ đầy, ta có thể dễ dàng tìm được s.
 
