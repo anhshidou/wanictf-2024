@@ -22,8 +22,8 @@ def brute_force_decrypt(enc, flag_hash):
     return None
 
 # Ciphertext và flag_hash từ đoạn mã trên
-enc = b'\x16\x97,\xa7\xfb_\xf3\x15.\x87jKRaF&"\xb6\xc4x\xf4.K\xd77j\xe5MLI_y\xd96\xf1$\xc5\xa3\x03\x990Q^\xc0\x17M2\x18' # Example encrypted bytes
-flag_hash = '6a96111d69e015a07e96dcd141d31e7fc81c4420dbbef75aef5201809093210e' # Example SHA-256 hash
+enc = b'\x16\x97,\xa7\xfb_\xf3\x15.\x87jKRaF&"\xb6\xc4x\xf4.K\xd77j\xe5MLI_y\xd96\xf1$\xc5\xa3\x03\x990Q^\xc0\x17M2\x18'
+flag_hash = '6a96111d69e015a07e96dcd141d31e7fc81c4420dbbef75aef5201809093210e'
 
 # Gọi hàm giải mã và in ra flag
 decrypted_flag = brute_force_decrypt(enc, flag_hash)
