@@ -59,7 +59,7 @@ $$A = - ((p-1)s + (p-2)s^{2} + (p-3)s^{3} + ... + 2s^{p-2} + s^{p-1}) \mod p$$
 Nhờ có gợi ý của anh trung là công thức tổng cấp số nhân nâng cao [này](https://brilliant.org/wiki/arithmetic-geometric-progression/), mình biến đổi A:
 
 Áp dụng công thức Arithmetic-Geometric Progression (AGP), một tổng với các số hạng có dạng:
-$$a,(a+d)r,(a+2d)r^{2},(a+3d)r^{3},…,[a+(n−1)d]r^{n−1}$$
+$$a,(a+d)r,(a+2d)r^{2},(a+3d)r^{3},…,(a+(n−1)d)r^{n−1}$$
 với a là số hạng đầu, d là công sai, r là công bội.
 
 Với A, ta áp dụng công thức AGP với $a = p$, $d = -1$, $r = s$ và số số hạng $n = p + 1$
